@@ -66,8 +66,5 @@ body{background-color: var(--body-color);}
     cursor: pointer;
 }
 
-
-
-
-
+.hidden{display: none;}
 /* End Styling the program */
