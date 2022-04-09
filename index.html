@@ -5,11 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe | jQuery</title>
+
+    <!-- Style file -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     
+    <!-- Start wrapper -->
+    <div class="wrapper">
 
+        <!-- Start Header -->
+        <div class="header-text">
+            <h1>Tic Tac Toe</h1>
+            Player <span class="display player-X">X</span>'s turn.
+        </div>
+
+        <!-- Start Cells -->
+        <div class="cells">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        
+
+        <!-- Start the footer of the program -->
+        <div class="result display hidden">Player <span class="player-X">X</span> won.</div>
+        <button type="button" class="btn">Reset</button>
+    </div>
+
+
+    <!-- Scripts -->
     <script src="./jquery-3.6.0.min.js"></script>
     <script src="./script.js"></script>
 </body>
